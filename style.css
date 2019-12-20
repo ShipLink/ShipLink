@@ -1,0 +1,121 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+/*    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;*/
+    font-family: 'Poppins', sans-serif;
+}
+ul li{
+    list-style: none;
+    display: inline;
+    text-align: center;
+}
+ul li a{
+    text-decoration: none;
+    color: #2E4053;
+}
+a{
+    text-decoration: none;
+    color: #2E4053;
+}
+.div-nav-item{
+    padding-right: 25px;
+}
+.div-nav{
+    padding-top: 25px;
+    padding-left: 25px;
+}
+.div-nav-item:hover{
+    color: #5D6D7E;
+}
+.div-content{
+    text-align: center;
+    padding-top: 200px;
+}
+.home-title{
+    color: #2E4053;
+    font-size: 75px;
+    font-family: 'Rajdhani', sans-serif;
+}
+.home-hello{
+    padding-top: 50px;
+    font-size: 30px;
+}
+.home-project-button{
+    border: 1px solid #2E4053;
+    color: #2E4053;
+    width: 150px;
+    height: 50px;
+    font-size: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 200px;
+}
+.home-project-button:hover{
+    background-color: #2E4053;
+    color: #ffffff;
+}
+.project-button-div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+
+
+.project-div-content{
+    display: grid;
+    grid-template-columns: 1fr 4fr 1fr;
+}
+.project-page{
+    background-color: #F8F9F9;
+    height: 94vh;
+    display: grid;
+    grid-template-rows: 2fr 1fr 5fr;
+}
+.project-info-content{
+    display: flex;
+    justify-content: flex-start;
+}
+.profile-circle{
+    height: 60px;
+    width: 60px;
+    margin: 20px;
+    background-color: #212F3C;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #ffffff;
+    font-size: 25px;
+}
+.project-profile-email{
+    margin-left: auto;
+    padding: 50px;
+}
+.project-profile-name{
+    padding-top: 25px;
+}
+.project-info-columns{
+    display: grid;
+    grid-template-columns: 1fr 3fr 1fr;
+    border-bottom: 1px solid #ABB2B9;
+}
+.project-info-pname{
+    border-right: 1px solid #ABB2B9;
+    padding-left: 20px;
+}
+.project-info-pdesc{
+    border-right: 1px solid #ABB2B9;
+    padding-left: 20px;
+
+}
+.project-info-plink{
+    padding-left: 20px;
+}
